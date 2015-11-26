@@ -19,9 +19,8 @@ LOCAL_SRC_FILES:=                     \
 LOCAL_C_INCLUDES += \
         $(TOP)/frameworks/av/media/libstagefright \
         $(TOP)/frameworks/native/include/media/hardware \
-        $(TOP)/frameworks/av/media/libstagefright/omx/include/omx_core \
-        $(TOP)/frameworks/av/media/libstagefright/include \
         $(TOP)/frameworks/av/media/libstagefright/omx/include \
+	$(TOP)/frameworks/av/media/libstagefright/include \
         $(TOP)/frameworks/native/include/media/openmax
 
 LOCAL_SHARED_LIBRARIES :=               \
